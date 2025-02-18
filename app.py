@@ -183,5 +183,3 @@ le.inverse_transform(result)[0]
 #             "parameters": param,
 #             "result": ml_models["le"].inverse_transform(result)[0],
 #         }
-
-!uvicorn main:app & npx localtunnel --port 8000 --subdomain fastapi & wget -q -O - https://loca.lt/mytunnelpassword
